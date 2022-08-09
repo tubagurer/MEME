@@ -1,0 +1,363 @@
+* {
+    color: #2c3944;
+}
+
+.add-selection {
+    height: 40vh;
+    width: 30vw;
+    background-color: #fafafa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.covering {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.lesser {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.rev-selection {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.15);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.loader {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: #17b1ac;
+    animation: pulse 0.85s infinite linear;
+    outline: #17b1ac;
+    border: #17b1ac;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #1766b1;
+    height: 3rem;
+    width: 85%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid #1766b1;
+    border-radius: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    * {
+        color: #2c3944;
+    }
+
+    .nav {
+        height: 50px;
+        width: 50px;
+    }
+
+    .add-selection {
+        height: 51vh;
+        width: 91%;
+        background-color: #fafafa;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .lesser {
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+
+    .rev-selection {
+        margin-top: 1.5rem;
+        width: 91%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        background-color: #1766b1;
+        height: 3rem;
+        width: 100%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid #1766b1;
+        border-radius: 5px;
+    }
+
+    .loader {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background: #17b1ac;
+        animation: pulse 0.85s infinite linear;
+        outline: #17b1ac;
+        border: #17b1ac;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 600px) {
+    * {
+        color: #2c3944;
+    }
+
+    .nav {
+        height: 50px;
+        width: 50px;
+    }
+
+    .add-selection {
+        height: 45vh;
+        width: 91%;
+        background-color: #fafafa;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .lesser {
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+
+    .rev-selection {
+        margin-top: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        background-color: #1766b1;
+        height: 3rem;
+        width: 85%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid #1766b1;
+        border-radius: 5px;
+    }
+
+    .loader {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background: #17b1ac;
+        animation: pulse 0.85s infinite linear;
+        outline: #17b1ac;
+        border: #17b1ac;
+    }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+    * {
+        color: #2c3944;
+    }
+
+    .nav {
+        height: 50px;
+        width: 50px;
+    }
+
+    .add-selection {
+        height: 45vh;
+        width: 85vw;
+        background-color: #fafafa;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .lesser {
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+
+    .rev-selection {
+        margin-top: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        background-color: #1766b1;
+        height: 3rem;
+        width: 85%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid #1766b1;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    * {
+        color: #2c3944;
+    }
+
+    .nav {
+        height: 50px;
+        width: 50px;
+    }
+
+    .add-selection {
+        height: 50vh;
+        width: 50vw;
+        background-color: #fafafa;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .lesser {
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+
+    .rev-selection {
+        margin-top: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        background-color: #1766b1;
+        height: 3rem;
+        width: 85%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid #1766b1;
+        border-radius: 5px;
+    }
+}
